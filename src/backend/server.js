@@ -162,13 +162,13 @@ if (executed === 0) {
 app.use("/api", router);
 
 // define check endpoint
-app.get("/app", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "../../build", "index.html"), err => {
-        if (err) {
-            console.log(err);
-        }
-    });
-});
+// app.get("/app", (req, res) => {
+//     res.sendFile(path.resolve(__dirname, "../../build", "index.html"), err => {
+//         if (err) {
+//             console.log(err);
+//         }
+//     });
+// });
 
 // start up the server
 const port = 5555;
