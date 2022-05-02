@@ -26,7 +26,7 @@ export default class FeaturedStats extends Component {
 
   async componentDidMount() {
     await axios
-      .get("https://secret-ridge-44451.herokuapp.com/api/state")
+      .get("secret-ridge-44451.herokuapp.com/api/state")
       .then((res) => {
         const data = res.data;
         this.setState({ caseData: data, finishedLoading: false }, () => {
@@ -38,7 +38,7 @@ export default class FeaturedStats extends Component {
       });
 
     await axios
-      .get("https://secret-ridge-44451.herokuapp.com/api/hospital")
+      .get("secret-ridge-44451.herokuapp.com/api/hospital")
       .then((res) => {
         const data = res.data;
         this.setState({ hospitalData: data, finishedLoading: false }, () => {
