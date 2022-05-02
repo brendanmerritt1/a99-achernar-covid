@@ -41,9 +41,7 @@
   "scripts": {
     "start": "nodemon ./src/backend/server.js",
     "client": "react-scripts start",
-    "build": "react-scripts build",
-    "dev": "concurrently \"npm run start\" \"npm run client\"",
-    "heroku-postbuild": "npm run build"
+    "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "license": "GPL-3.0-or-later",
   "eslintConfig": {
