@@ -8,7 +8,7 @@ const router = require("./expressRouter");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.resolve(__dirname, "../../build/static")));
+app.use(express.static(path.resolve(__dirname, "../../build")));
 let usrname = "";
 
 // check if databases have been created
