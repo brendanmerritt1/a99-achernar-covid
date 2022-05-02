@@ -5,6 +5,7 @@ const fs = require("fs");
 const { parse } = require("csv-parse");
 const path = require("path");
 const router = require("./expressRouter");
+const port = process.env.PORT || 5555;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -171,9 +172,8 @@ app.use("/api", router);
 // });
 
 // start up the server
-const port = 5555;
 app.listen(port, () => {
-    console.log(`App is running on port 5555`);
+    console.log(`App is running on port ${port}`);
 });
 
 
