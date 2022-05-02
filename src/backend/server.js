@@ -37,7 +37,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// if database for counties and state is present, skip over more inserts
+// if database for counties and state is present, skip over more insert
 if (executed === 0) {
     function countiesEntry() {
         const coolPath1 = path.join(__dirname, "./data/county.csv");
