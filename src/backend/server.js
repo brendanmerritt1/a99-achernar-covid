@@ -163,7 +163,7 @@ app.use("/api", router);
 
 // define check endpoint
 app.get("/app", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "../../build/index.html"), err => {
+    res.sendFile(path.resolve(__dirname, "../../build", "index.html"), err => {
         if (err) {
             console.log(err);
         }
