@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.e20c7a67.css",
+    "main.js": "/app/static/js/main.2a656c4a.js",
+    "static/media/Outbreaks.png": "/app/static/media/Outbreaks.b13ce07b4c7d43e09822.png",
+    "index.html": "/app/index.html",
+    "main.e20c7a67.css.map": "/app/static/css/main.e20c7a67.css.map",
+    "main.2a656c4a.js.map": "/app/static/js/main.2a656c4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e20c7a67.css",
+    "static/js/main.2a656c4a.js"
+  ]
+}
