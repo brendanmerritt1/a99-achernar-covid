@@ -4,7 +4,7 @@
 This covid dashboard displays covid information for the state of North Carolina, both at a state and county level. It displays data about a number of areas, including cases, deaths, hospitalizations, etc.
 
 ## Demo
-To see a quick overview of the webapp with a brief explanation of each page, see the linked video here https://www.youtube.com/watch?v=CNQWKvCJ6-k.
+To see a quick overview of the webapp with a brief explanation of each page, see the linked video here https://www.youtube.com/watch?v=CNQWKvCJ6-k. \
 Additionally, this webapp is hosted on Heroku, and can be seen publicly here https://secret-ridge-44451.herokuapp.com/.
 
 ## Installation and Run Instructions
