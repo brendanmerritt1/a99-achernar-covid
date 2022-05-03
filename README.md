@@ -1,7 +1,9 @@
 # Team Achernar Covid-19 Dashboard
 
 ## Introduction
-This covid dashboard displays covid information for the state of North Carolina, both at a state and county level. It displays data about a number of areas, including cases, deaths, hospitalizations, etc. It has pages for vaccine and outbreak info, containing a variety of tables and graph. There are also registration and login components to personalize the "My County" page, and the account information can be edited/deleted at any time.
+This COVID-19 dashboard displays COVID-19 information for the state of North Carolina, both at a state and county level. It displays data about a number of areas, including cases, deaths, hospitalizations, etc. It has pages for vaccine and outbreak info, containing a variety of tables and graph. There are also registration and login components to personalize the "My County" page, and the account information can be edited/deleted at any time. \
+\
+The dashboard is rendered on the frontend through React, while the endpoints and server-side logic in the backend is managed by Express. It uses better-sqlite3 (a SQLite derivative) to manage a database with a number of tables, holding COVID-19 data, account info, and access logs. API endpoints managed by the Express router contain filtered json data from the database, which is served to the frontend with Axios. As of now, data is parsed from a CSV file into the database, but since this takes a significant amount of time on the first start, the SQLite database is included in the repository. Data from the News tab is pulled from the Bing News Search API with the query "Coronavirus".
 
 ## Demo
 To see a quick overview of the webapp with a brief explanation of each page, see the linked video here https://www.youtube.com/watch?v=CNQWKvCJ6-k. \
