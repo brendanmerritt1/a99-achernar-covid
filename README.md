@@ -1,7 +1,7 @@
 # Team Achernar Covid-19 Dashboard
 
 ## Introduction
-This covid dashboard displays covid information for the state of North Carolina, both at a state and county level. It displays data about a number of areas, including cases, deaths, hospitalizations, etc.
+This covid dashboard displays covid information for the state of North Carolina, both at a state and county level. It displays data about a number of areas, including cases, deaths, hospitalizations, etc. It has pages for vaccine and outbreak info, containing a variety of tables and graph. There are also registration and login components to personalize the "My County" page, and the account information can be edited/deleted at any time.
 
 ## Demo
 To see a quick overview of the webapp with a brief explanation of each page, see the linked video here https://www.youtube.com/watch?v=CNQWKvCJ6-k. \
