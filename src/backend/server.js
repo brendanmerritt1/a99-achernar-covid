@@ -5,7 +5,7 @@ const fs = require("fs");
 const { parse } = require("csv-parse");
 const path = require("path");
 const router = require("./expressRouter");
-const port = process.env.PORT || 5555;
+const port = 5555;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -16,7 +16,6 @@ let usrname = "";
 dbInit();
 const executed = db.prepare(`SELECT EXISTS (SELECT 1 FROM state);`).pluck().get();
 
-// TO DO: more middleware functions that insert into database
 // log database middleware
 app.use((req, res, next) => {
     let logdata = {
@@ -162,18 +161,9 @@ if (executed === 0) {
 // set up router for api endpoints (logs, state, county)
 app.use("/api", router);
 
-// define check endpoint
-// app.get("/app", (req, res) => {
-//     res.sendFile(path.resolve(__dirname, "../../build", "index.html"), err => {
-//         if (err) {
-//             console.log(err);
-//         }
-//     });
-// });
-
 // start up the server
-app.listen(port, () => {
-    console.log(`App is running on port ${port}`);
+app.listen(process.env.PORT || port, () => {
+    console.log(`App is running on port ${process.env.PORT || port}`);
 });
 
 
