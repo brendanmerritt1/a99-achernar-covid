@@ -66,5 +66,5 @@
   "devDependencies": {
     "@babel/preset-react": "^7.16.7"
   },
-  "homepage": "https://secret-ridge-44451.herokuapp.com/"
+  "homepage": "https://covid-dashboard-oivi.onrender.com"
 }
