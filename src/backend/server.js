@@ -6,10 +6,12 @@ const { parse } = require("csv-parse");
 const path = require("path");
 const router = require("./expressRouter");
 const port = 5555;
+const cors = require("cors");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.resolve(__dirname, "../../build")));
+app.use(cors());
 let usrname = "";
 
 // check if databases have been created

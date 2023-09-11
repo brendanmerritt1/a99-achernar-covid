@@ -1,10 +1,6 @@
 {
   "name": "a99-achernar",
   "version": "1.0.0",
-  "private": true,
-  "engines": {
-    "node": "16.x"
-  },
   "main": "server.js",
   "dependencies": {
     "@emotion/react": "^11.8.2",
@@ -20,6 +16,7 @@
     "axios": "^0.27.2",
     "better-sqlite3": "^7.5.1",
     "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
     "create-react-app": "^5.0.1",
     "csv-parse": "^5.0.4",
     "d3": "^7.4.4",
@@ -66,5 +63,5 @@
   "devDependencies": {
     "@babel/preset-react": "^7.16.7"
   },
-  "homepage": "https://covid-dashboard-oivi.onrender.com"
+  "homepage": "."
 }
