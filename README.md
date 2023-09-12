@@ -7,7 +7,7 @@ The dashboard is rendered on the frontend through React, while the endpoints and
 
 ## Demo
 To see a quick overview of the webapp with a brief explanation of each page, see the linked video here https://www.youtube.com/watch?v=CNQWKvCJ6-k. \
-Additionally, this webapp is hosted on Render, and can be seen publicly here https://covid-dashboard-oivi.onrender.com/.
+Additionally, this webapp is hosted on my personal domain, and can be seen publicly here https://covid.brendanmerritt.com/.
 
 ## Installation and Run Instructions
 1. Navigate to a directory of your choosing and clone this directory with `git clone `.\
